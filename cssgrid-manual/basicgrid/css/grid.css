@@ -1,0 +1,20 @@
+/* ===================================================================== 
+   Practice CSS Grid Layout
+======================================================================== */
+
+/* Target the grid container */
+.wrapper {  
+  max-width: 990px;
+  
+  /* Turn on the grid */
+  display: grid;
+  
+  /* Declare 3 row tracks: 100px 400px 200px */
+  grid-template-rows: 100px 400px 200px;
+  
+  /* Declare 3 column tracks, each 320px wide */
+  grid-template-columns: 320px 320px 320px;
+  
+  /* Apply a 20px gutter to rows and a 15px gutter to columns */  
+  grid-gap: 20px 15px;
+}

@@ -1,0 +1,33 @@
+/* ===================================== 
+   Page Styles
+======================================== */
+
+* {
+	box-sizing: border-box;
+}
+body {
+  font-size: 1rem;
+  line-height: 1.5;
+	font-family: 'Varela Round', sans-serif;
+  font-weight: bold;
+  text-align: center;
+  margin: 0;
+	background: #e8e9e9;
+}
+.wrapper {
+  background: #fff;
+  border-radius: 0.285em;
+  box-shadow: 0 0.1em 0 0 rgba(0,0,0,0.1);
+  margin: 2em auto;
+}
+.wrapper div {
+  color: #fff;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding: 1em 0;
+  background-color: #39abcd;
+  border-radius: 0.3em;
+}
+.wrapper div:nth-child(odd) {
+  background-color: #2a94b4;
+}
